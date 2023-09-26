@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Ambulance";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">LicenceNo</th>
+            <th scope="col">Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.LicenceNo</td>
+                <td>@item.Rate</td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+

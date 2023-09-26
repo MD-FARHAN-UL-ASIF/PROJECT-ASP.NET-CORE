@@ -1,0 +1,48 @@
+﻿
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    var usertype = Context.Session.GetString("role");
+    if (usertype != "Admin")
+    {
+        <script>
+            window.location.href = '/user/login';
+        </script>
+    }
+}
+
+<h1>List</h1>
+
+<table class="table caption-top">
+    <caption>List of products</caption>
+    <thead>
+        <tr>
+            <th class="text-center" scope="col">Image</th>
+            <th class="text-center" scope="col">Name</th>
+            <th class="text-center" scope="col">Description</th>
+            <th class="text-center" scope="col">Category</th>
+            <th class="text-center" scope="col">Price</th>
+            <th class="text-center" scope="col">Manufacturar</th>
+            <th class="text-center" scope="col">Expire Date</th>
+            <th class="text-center" scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center align-middle"><img src="~/img/med/@item.PictureLink" width="150px" height="auto" /></td>
+                <td class="text-center align-middle">@item.Name</td>
+                <td class="text-center align-middle">@item.Description</td>
+                <td class="text-center align-middle">@item.CatName</td>
+                <td class="text-center align-middle">@item.Price</td>
+                <td class="text-center align-middle">@item.Manufacturer</td>
+                <td class="text-center align-middle">@item.ExpiryDate </td>
+                <td class="text-center align-middle"><a href="/product/details/@item.Id" class="btn btn-primary">Details</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

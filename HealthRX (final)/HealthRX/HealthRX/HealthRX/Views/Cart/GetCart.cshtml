@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewData["Title"] = "GetCart";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+
+    var usertype = Context.Session.GetString("role");
+    if (usertype != "Customer")
+    {
+        <script>
+            window.location.href = '/user/login';
+        </script>
+    }
+}
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>Untitled</title>
+</head>
+
+<body>
+    <form method="post" asp-action="Checkout" asp-controller="Cart">
+        <table class="table caption-top">
+            <caption>List of products</caption>
+            <thead>
+                <tr>
+                    <th class="text-center" scope="col">Image</th>
+                    <th class="text-center" scope="col">Name</th>
+                    <th class="text-center" scope="col">Description</th>
+                    <th class="text-center" scope="col">Price</th>
+                    <th class="text-center" scope="col">Manufacturar</th>
+                    <th class="text-center" scope="col">Expire Date</th>
+                    <th class="text-center" scope="col">Quantity</th>
+                    <th class="text-center" scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center align-middle"><img src="~/img/med/@item.Product.PictureLink" width="150px" height="auto" /></td>
+                        <td class="text-center align-middle">@item.Product.Name</td>
+                        <td class="text-center align-middle">@item.Product.Description</td>
+                        <td class="text-center align-middle">@(item.Product.Price * item.Quantity)</td>
+                        <td class="text-center align-middle">@item.Product.Manufacturer</td>
+                        <td class="text-center align-middle">@item.Product.ExpiryDate</td>
+                        <td class="text-center align-middle">
+                            <input type="number" class="form-control" style="width: 80px;text-align: center;" name="Quantity" value="@item.Quantity">
+                        </td>
+                        <td class="text-center align-middle">
+                            <a href="/cart/remove/@item.Product.Id" class="btn btn-danger">Remove</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <br />
+        <hr />
+        <br />
+        <label class="form-label col">Delivry Address</label>
+        <input type="text" class="form-control col" name="Address" id="Address" />
+
+        <button type="submit" class="btn btn-primary float-right">Checkout</button>
+    </form>
+</body>
+
+</html>
+

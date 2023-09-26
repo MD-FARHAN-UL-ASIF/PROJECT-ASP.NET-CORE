@@ -1,0 +1,36 @@
+﻿
+@{
+    ViewData["Title"] = "Admin";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+    var usertype = Context.Session.GetString("role");
+    if(usertype != "Admin")
+    {
+        <script>
+            window.location.href = '/user/login';
+        </script>
+    }
+}
+
+<table class="table caption-top">
+    <caption>List of products</caption>
+    <thead>
+        <tr>
+            <th class="text-center" scope="col">Image</th>
+            <th class="text-center" scope="col">Address</th>
+            <th class="text-center" scope="col">Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center align-middle"><img src="~/img/med/@item.PictureLink" width="150px" height="auto" /></td>
+                <td class="text-center align-middle">@item.Address</td>
+                <td class="text-center align-middle">@item.PhoneNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

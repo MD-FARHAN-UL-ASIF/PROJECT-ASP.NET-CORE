@@ -1,0 +1,33 @@
+﻿
+@{
+    ViewData["Title"] = "SearchResult";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Designation</th>
+            <th scope="col">CatagoryName </th>
+            <th scope="col">HospitalName </th>
+            <th scope="col">LocationName </th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Designation</td>
+                <td>@item.CatagoryName</td>
+                <td>@item.HospitalName</td>
+                <td>@item.LocationName</td>
+                <td><a href="/appintment/book/@item.Id" class="btn btn-primary">Get Appointment</a></td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+

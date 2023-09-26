@@ -1,0 +1,114 @@
+﻿@model ASM.Models.Appointment
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_PatientLayout.cshtml";
+}
+
+<h1>Create</h1>
+<h4>Appointment</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input asp-for="PatientId" type="hidden" value="@Model.PatientId" class="form-control" />
+            <div class="form-group">
+                <label asp-for="Date" class="control-label">Date</label>
+                <input asp-for="Date" class="form-control" />
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LocationId" class="control-label">Location</label>
+                <select asp-for="LocationId" class="form-control" asp-items="ViewBag.Locations" onchange="FillHospitals(this, 'HospitalId')"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HospitalId" class="control-label">Hospital</label>
+                <select asp-for="HospitalId" class="form-control" id="HospitalId" onchange="FillDoctors('CatagoryId', 'HospitalId', 'DoctorId')"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="CatagoryId" class="control-label">Category</label>
+                <select asp-for="CatagoryId" class="form-control" asp-items="ViewBag.Catagories" onchange="FillDoctors('CatagoryId', 'HospitalId', 'DoctorId')"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DoctorId" class="control-label">Doctor</label>
+                <select asp-for="DoctorId" class="form-control" id="DoctorId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Note" class="control-label">Note</label>
+                <input asp-for="Note" class="form-control" />
+                <span asp-validation-for="Note" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script type="text/javascript">
+        function FillHospitals(lstLocationCtrl, lstHospitalId) {
+            var lstHospitals = $("#" + lstHospitalId);
+            lstHospitals.empty();
+
+            lstHospitals.append($('<option/>',
+                {
+                    value: null,
+                    text: "Select Hospital"
+                }));
+
+            var selectedLocation = lstLocationCtrl.value;
+
+            if (selectedLocation != null && selectedLocation != '') {
+                $.getJSON('@Url.Action("GetHospitalsByLocation")', { LocationId: selectedLocation }, function (hospitals) {
+                    if (hospitals != null && hospitals.length > 0) {
+                        $.each(hospitals, function (index, hospital) {
+                            lstHospitals.append($('<option/>',
+                                {
+                                    value: hospital.value,
+                                    text: hospital.text
+                                }));
+                        });
+                    }
+                });
+            }
+        }
+
+        function FillDoctors(catagoryId, hospitalId, doctorId) {
+            var lstDoctors = $("#" + doctorId);
+            lstDoctors.empty();
+
+            lstDoctors.append($('<option/>',
+                {
+                    value: null,
+                    text: "Select Doctor"
+                }));
+
+            var selectedCatagory = $("#" + catagoryId).val();
+            var selectedHospital = $("#" + hospitalId).val();
+
+            if (selectedCatagory != null && selectedCatagory != '' && selectedHospital != null && selectedHospital != '') {
+                $.getJSON('@Url.Action("GetDoctorsByCategoryAndHospital")', { categoryId: selectedCatagory, hospitalId: selectedHospital }, function (doctors) {
+                    if (doctors != null && doctors.length > 0) {
+                        $.each(doctors, function (index, doctor) {
+                            lstDoctors.append($('<option/>',
+                                {
+                                    value: doctor.value,
+                                    text: doctor.text
+                                }));
+                        });
+                    }
+                });
+            }
+        }
+
+    </script>
+}

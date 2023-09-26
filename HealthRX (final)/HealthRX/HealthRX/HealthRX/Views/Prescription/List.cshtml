@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<table class="table caption-top">
+    <caption class="text-center">List of ordered medicines</caption>
+    <thead>
+        <tr>
+            <th class="text-center" scope="col">Image</th>
+            <th class="text-center" scope="col">Address</th>
+            <th class="text-center" scope="col">Number</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td class="text-center align-middle"><img src="~/img/med/@item.PictureLink" width="150px" height="auto" /></td>
+                <td class="text-center align-middle">@item.Address</td>
+                <td class="text-center align-middle">@item.PhoneNumber</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

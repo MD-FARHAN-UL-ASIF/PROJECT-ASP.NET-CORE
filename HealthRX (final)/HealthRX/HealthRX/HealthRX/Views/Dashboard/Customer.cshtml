@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "Customer";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+
+    var usertype = Context.Session.GetString("role");
+    if (usertype != "Customer")
+    {
+        <script>
+            window.location.href = '/user/login';
+        </script>
+    }
+}
+
+
+<div class="d-flex justify-content-evenly">
+    @foreach (var item in Model)
+    {
+        <div class="card m-1" style="width: 18rem;">
+            <img src="~/img/med/@item.PictureLink" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">@item.Name</h5>
+                <p class="card-text">@item.Description.</p>
+                <p class="card-text">@item.Price</p>
+                <a href="/cart/add/@item.Id" class="btn btn-primary">Add To Cart</a>
+                <a href="/product/productdetails/@item.Id" class="btn btn-primary">Details</a>
+            </div>
+        </div>
+
+    }
+</div>

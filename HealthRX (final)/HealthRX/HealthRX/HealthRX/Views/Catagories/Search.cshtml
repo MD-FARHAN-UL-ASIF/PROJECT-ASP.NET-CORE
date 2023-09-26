@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Search";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<div class="container-fluid bg-transparent d-flex justify-content-center align-items-center vh-50">
+    <form asp-action="Search" method="post" class="p-4 bg-white rounded shadow">
+        <h1 class="text-center">Search By Category</h1>
+
+        <div class="form-group row p-2">
+            <label for="CategoryId" class="col-sm-3 col-form-label">Category</label>
+            <div class="col-sm-9">
+                <select class="form-select" name="Id" id="CategoryId">
+                    <option selected>Open this select menu</option>
+                    @foreach (var item in Model)
+                    {
+                        <option value="@item.Id">@item.Name</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row justify-content-center p-2">
+            <button type="submit" class="btn btn-primary">Search</button>
+        </div>
+    </form>
+</div>
+
+

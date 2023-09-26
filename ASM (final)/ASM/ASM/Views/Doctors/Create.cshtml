@@ -1,0 +1,110 @@
+﻿@model ASM.Models.Doctor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Doctor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Designation" class="control-label"></label>
+                <input asp-for="Designation" class="form-control" />
+                <span asp-validation-for="Designation" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CategoryId" class="control-label"></label>
+                <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.Catagories"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="LoacationId" class="control-label"></label>
+                <select asp-for="LoacationId" class="form-control" asp-items="ViewBag.Locations" onchange="FillHospitals(this,'lstHospital')"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HospitalId" class="control-label"></label>
+                <select asp-for="HospitalId" class="form-control" asp-items="ViewBag.Hospitals" id="lstHospital"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Review" class="control-label"></label>
+                <input asp-for="Review" class="form-control" />
+                <span asp-validation-for="Review" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fee" class="control-label"></label>
+                <input asp-for="Fee" class="form-control" />
+                <span asp-validation-for="Fee" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserName" class="control-label"></label>
+                <input asp-for="UserName" class="form-control" />
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script type="text/javascript">
+        function FillHospitals(lstLocationCtrl, lstHospitalId) {
+            var lstHospitals = $("#" + lstHospitalId);
+            lstHospitals.empty();
+
+            lstHospitals.append($('<option/>',
+                {
+                    value: null,
+                    text: "Select Hospital"
+                }));
+
+            var selectedLocation = lstLocationCtrl.options[lstLocationCtrl.selectedIndex].value;
+
+            if (selectedLocation != null && selectedLocation != '') {
+                $.getJSON('@Url.Action("GetHospitalsByLocation")', { LocationId: selectedLocation }, function (hospitals) {
+                    if (hospitals != null && !jQuery.isEmptyObject(hospitals)) {
+                        $.each(hospitals, function (index, hospital) {
+                            lstHospitals.append($('<option/>',
+                                {
+                                    value: hospital.value,
+                                    text: hospital.text
+                                }));
+                        });
+                    };
+                });
+            }
+            return;
+        }
+
+
+    </script>
+}

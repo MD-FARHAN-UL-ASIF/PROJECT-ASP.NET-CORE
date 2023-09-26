@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewData["Title"] = "ProductDetails";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+<style>
+    /* Custom styles for the quantity widget */
+    .quantity-widget {
+        display: flex;
+        align-items: center;
+    }
+
+    .quantity-input {
+        width: 40px; /* Adjust the width as needed */
+        text-align: center;
+    }
+
+    .quantity-btn {
+        margin: 0 5px;
+    }
+
+    /* Custom styles for the "Add to Cart" button */
+    .add-to-cart-btn {
+        background-color: #007bff; /* Button background color */
+        color: #fff; /* Button text color */
+        border: none;
+        padding: 10px 20px; /* Adjust padding as needed */
+        border-radius: 5px; /* Button border radius */
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        line-height: 1.5; /* Adjust line height as needed */
+        cursor: pointer;
+    }
+
+        .add-to-cart-btn:hover {
+            background-color: #0056b3; /* Hover background color */
+        }
+</style>
+
+<div data-reflow-type="product" class="container my-5">
+    <div class="reflow-product">
+        <div class="ref-media d-flex justify-content-evenly">
+            <div class="ref-preview">
+                <img height="300" width="500" class="ref-image active" src="~/img/med/@Model.PictureLink" data-reflow-preview-type="image" />
+            </div>
+            <div class="ref-product-data">
+                <h2 class="ref-name">@Model.Name</h2>
+                <div class="ref-categories">
+                    <span class="ref-category">Medicine</span>
+                </div>
+
+                <strong class="ref-price ref-on-sale my-2 mt-2">
+                    @Model.Price
+                </strong>
+                <span data-reflow-type="add-to-cart" data-reflow-shoppingcart-url data-reflow-addtocart-text data-reflow-product="43218622" data-reflow-variant="199976733_s">
+                    <div class="ref-product-controls">
+                        <a class="add-to-cart-btn my-2" href="/cart/add/@Model.Id/">Add to Cart</a>
+                    </div>
+                </span>
+                <div class="ref-description my-2">@Model.Description</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,817 @@
+{
+  "Files": [
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ASM.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ASM.bundle.scp.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\css\\style.css",
+      "PackagePath": "staticwebassets\\assests\\css\\style.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\about.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\assests\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\departments-1.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\departments-1.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\departments-2.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\departments-2.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\departments-3.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\departments-3.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\departments-4.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\departments-4.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\departments-5.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\departments-5.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\doctors\\doctors-1.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\doctors\\doctors-1.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\doctors\\doctors-2.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\doctors\\doctors-2.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\doctors\\doctors-3.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\doctors\\doctors-3.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\doctors\\doctors-4.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\doctors\\doctors-4.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assests\\img\\favicon.png"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-1.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-1.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-2.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-2.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-3.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-3.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-4.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-4.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-5.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-5.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-6.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-6.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-7.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-7.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\gallery\\gallery-8.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\gallery\\gallery-8.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\hero-bg.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\testimonials\\testimonials-1.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\testimonials\\testimonials-1.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\testimonials\\testimonials-2.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\testimonials\\testimonials-2.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\testimonials\\testimonials-3.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\testimonials\\testimonials-3.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\testimonials\\testimonials-4.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\testimonials\\testimonials-4.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\img\\testimonials\\testimonials-5.jpg",
+      "PackagePath": "staticwebassets\\assests\\img\\testimonials\\testimonials-5.jpg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\js\\main.js",
+      "PackagePath": "staticwebassets\\assests\\js\\main.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\assests\\scss\\Readme.txt"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\animate.css\\animate.compat.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\animate.css\\animate.compat.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\animate.css\\animate.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\animate.css\\animate.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\css\\animations.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\css\\animations.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\css\\boxicons.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\css\\boxicons.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\css\\transformations.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\css\\transformations.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\fonts\\boxicons.svg",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\fonts\\boxicons.svg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\boxicons\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\boxicons\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\all.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\all.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\all.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\brands.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\brands.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\brands.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\fontawesome.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\regular.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\regular.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\regular.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\solid.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\solid.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\solid.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v4-shims.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\fontawesome-free\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\css\\plyr.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\css\\plyr.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\css\\plyr.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\css\\plyr.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.eot",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.eot"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.less",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.less"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.svg",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.svg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.symbol.svg",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.symbol.svg"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.ttf",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.ttf"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.woff",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.woff"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\remixicon\\remixicon.woff2",
+      "PackagePath": "staticwebassets\\assests\\vendor\\remixicon\\remixicon.woff2"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\assests\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\assests\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\assests\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\assests\\vendor\\swiper\\swiper-bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "G:\\codes\\adv c#\\ASM\\ASM\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ASM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ASM.props",
+      "PackagePath": "build\\ASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ASM.props",
+      "PackagePath": "buildMultiTargeting\\ASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ASM.props",
+      "PackagePath": "buildTransitive\\ASM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

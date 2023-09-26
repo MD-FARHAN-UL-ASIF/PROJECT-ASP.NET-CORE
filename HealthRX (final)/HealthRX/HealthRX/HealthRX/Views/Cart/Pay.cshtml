@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Pay";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+<p class="bg-danger rounded text-center">
+    <ul>
+        <li>Please make payment to this following number.</li>
+        <li>017XXXXXXXX</li>
+        <li>Note that this is a bkash Number.</li>
+        <li>Go to your bkash account and selet the payment option.</li>
+        <li>User 112233 in your reference.</li>
+    </ul>
+    <form asp-action="Pay">
+        <label class="form-label">
+            TransactionId
+        </label>
+        <input type="text" class="form-control" name="TrxId" />
+        <input type="submit" class="btn btn-primary" value="Checkout" />
+    </form>
+</p>
+
+

@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "UpdateProfile";
+    Layout = "~/Views/Shared/_DoctorLayout.cshtml";
+}
+
+<div class="container-fluid bg-transparent d-flex justify-content-center align-items-center vh-100">
+    <form asp-action="UpdateProfile" method="post" class="p-4 bg-white rounded shadow">
+        <h1 class="text-center">Edit Your Information</h1>
+        <p class="text-center">Please fill the details.</p>
+        <div class="form-group row p-2">
+            <label for="Name" class="col-sm-3 col-form-label">Name</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="Name" id="Name" value="@Model.Doctor.Name">
+            </div>
+        </div>
+
+        <div class="form-group row p-2">
+            <label for="UserName" class="col-sm-3 col-form-label">User Name</label>
+            <div class="col-sm-9">
+                <input type="text" class="form-control" name="UserName" id="UserName" value="@Model.Doctor.UserName">
+            </div>
+        </div>
+
+        <div class="form-group row p-2">
+            <label for="Email" class="col-sm-3 col-form-label">Email</label>
+            <div class="col-sm-9">
+                <input type="email" class="form-control" name="Email" id="Email" value="@Model.Doctor.Email">
+            </div>
+        </div>
+
+        <div class="form-group row p-2">
+            <label for="LocationId" class="col-sm-3 col-form-label">Location</label>
+            <div class="col-sm-9">
+                <select class="form-select" name="LoacationId" id="LocationId">
+                    <option selected>Open this select menu</option>
+                    @foreach (var item in Model.Locationz)
+                    {
+                        if (item.Id == Model.Doctor.LoacationId)
+                        {
+                            <option value="@item.Id" selected>@item.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row p-2">
+            <label for="HospitalId" class="col-sm-3 col-form-label">Hospital</label>
+            <div class="col-sm-9">
+                <select class="form-select" name="HospitalId" id="HospitalId">
+                    <option selected>Open this select menu</option>
+                    @foreach (var item in Model.Hospitalz)
+                    {
+                        if (item.Id == Model.Doctor.HospitalId)
+                        {
+                            <option value="@item.Id" selected>@item.Name</option>
+                        }
+                        else
+                        {
+                            <option value="@item.Id">@item.Name</option>
+                        }
+                    }
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group row justify-content-center p-2">
+            <button type="submit" class="btn btn-primary">Update</button>
+        </div>
+    </form>
+</div>

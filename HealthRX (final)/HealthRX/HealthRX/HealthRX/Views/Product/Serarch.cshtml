@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Serarch";
+    Layout = "~/Views/Shared/_CustomerLayout.cshtml";
+}
+
+
+
+<div class="d-flex justify-content-evenly">
+    <div class="card m-1" style="width: 18rem;">
+        <img src="~/img/med/@Model.PictureLink" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name</h5>
+            <p class="card-text">@Model.Description.</p>
+            <p class="card-text">@Model.Price</p>
+            <a href="/cart/add/@Model.Id" class="btn btn-primary">Add To Cart</a>
+            <a href="/product/productdetails/@Model.Id" class="btn btn-primary">Details</a>
+        </div>
+    </div>
+</div>
