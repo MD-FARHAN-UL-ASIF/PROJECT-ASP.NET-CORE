@@ -16,6 +16,5 @@ namespace HealthRX.EF
         public DbSet<OrderItem> OrderItems { get; set; }
         public DbSet<Prescrition> Prescritions { get; set; }
         public DbSet<Payment> Payments { get; set; }
-
     }
 }
